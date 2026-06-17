@@ -7,7 +7,7 @@ updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
 
 Q2
-ALTER TABLE departments ADD department_id INT UNSIGNED NULL AFTER email;
+ALTER TABLE people ADD department_id INT UNSIGNED NULL AFTER email;
 
 Q3
  INSERT INTO departments(name)
